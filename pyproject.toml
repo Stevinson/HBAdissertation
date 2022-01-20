@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "hba"
+version = "0.0.1"
+authors = ["Edward Stevinson <edward@myupside.io>"]
+description = "hba dissertation"
+
+[tool.poetry.dependencies]
+aioboto3 = "8.3.0"                              # Apache 2.0
+aiostream = "0.4.3"                             # GPLv3
+alembic = "1.4.1"                               # MIT
+asyncpg = "0.22.0"                              # Apache 2.0
+boto3 = "1.16.52"                               # Apache 2.0
+botocore = "1.19.52"
+cached-property = "1.5.2"                       # BSD
+importlib-resources = "5.2.2"                   # Apache
+jupyter = "1.0.0"                               # BSD
+keras = "*"
+matplotlib = "3.4.3"                            # PSF
+more-itertools = "8.12.0"                       # MIT
+pandas = ">=1.1.4"
+plotly = "4.14.3"
+python = "3.9.4"
+python-binary-memcached = "0.30.1"              # MIT
+pysftp = "*"
+requests = "2.23.0"                             # Apache
+rfc3339-validator = "0.1.2"                     # MIT
+setuptools = ">=40.8.0"                         # MIT
+seaborn = "0.11.2"				# BSD
+tomlkit = "^0.7.0"                              # MIT
+tenacity = "^7.0.0"
+
+[tool.poetry.dev-dependencies]
+asynctest = "0.13.0"                            # Apache 2.0
+black = "19.10b0"                               # MIT
+isort = "4.3.4"                                 # MIT
+factory-boy = "3.2.0"
+jupyter = "1.0.0"
+moto = "2.2.8"                                  # Apache
+pylint = "2.6.0"                                # GPL
+pylint-quotes = "0.2.1"                         # MIT
+pytest = "6.2.1"                                # MIT
+pytest-cov = "2.10.1"                           # MIT
+pytest-env = "^0.6.2"
+pytest-asyncio = "0.15.1"                       # MIT
+pytest-pylint = "0.18.0"                        # MIT
+pytest-xdist = "2.2.0"                          # MIT
+
+[build-system]
+requires = [ "setuptools>=40.8.0", "wheel", "tomlkit", "poetry>=0.12.16" ]
+build-backend = "poetry.masonry.api"

@@ -1,0 +1,8 @@
+name: hba
+channels:
+  - anaconda
+  - conda-forge
+dependencies:
+  # src related packages
+  - src==3.9.4
+  - libpq=12.2 # BSD-3
